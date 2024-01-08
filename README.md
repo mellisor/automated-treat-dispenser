@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This repo contains the bits of code that power the treat dispenser you can find at {insert URL here}. All you should need to do is install the `gpiod` package, update the code, then run the command `python motor.py 512 -d 45` to rotate the divider by one segment
+This repo contains the bits of code that power the treat dispenser you can find at https://www.printables.com/model/712611-automated-pet-treat-dispenser. All you should need to do is install the `gpiod` package, update the code, then run the command `python motor.py 512 -d 45` to rotate the divider by one segment
 
 ## Installing the necessary packages
 
