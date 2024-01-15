@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 gpiod = "*"
+flask = "*"
+gunicorn = "*"
 
 [dev-packages]
 

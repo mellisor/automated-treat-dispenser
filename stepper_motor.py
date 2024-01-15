@@ -41,7 +41,7 @@ class StepperMotor(object):
 
     def __enter__(self):
         self.gpio = gpiod.request_lines(
-            "/dev/gpiochip4",
+            "/dev/gpiochip0",
             consumer="motor-test",
             config={
                 self.in1: gpiod.LineSettings(direction = Direction.OUTPUT, output_value = OFF),

@@ -16,7 +16,7 @@ args = parser.parse_args()
 # Replace this with the GPIO pins you plan to use
 in1 = 14
 in2 = 15
-in3 = 18
+in3 = 24
 in4 = 23
 
 with StepperMotor(in1, in2, in3, in4) as motor:
